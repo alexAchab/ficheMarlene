@@ -1,0 +1,36 @@
+:root {
+    --background: #191919;
+    --text: #a5a5a5;
+    --font-text: 1rem/1.6 "Open Sans", system-ui, sans-serif;
+    --font-title: 500 32px/1.6 "Pirata One";
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font: var(--font-text);
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    font: var(--font-title);
+    text-align: center;
+    margin: 4rem 0;
+}
+
+p {
+    margin: 0 0 4rem 0;
+    padding: 0 1.4rem;
+    text-align: justify;
+}
