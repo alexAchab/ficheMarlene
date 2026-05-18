@@ -1,7 +1,7 @@
 :root {
     --background: #191919;
-    --text: #a5a5a5;
-    --font-text: 1rem/1.6 "Open Sans", system-ui, sans-serif;
+    --text: #8b8b8b;
+    --font-text: 14px/1.4 "Open Sans", system-ui, sans-serif;
     --font-title: 500 32px/1.6 "Pirata One";
 }
 
@@ -23,14 +23,16 @@ main {
     width: 100%;
 }
 
+section {
+    padding: 0 1.4rem;
+}
+
 h1 {
     font: var(--font-title);
-    text-align: center;
-    margin: 4rem 0;
+    margin: 4rem 0 1rem 0;
 }
 
 p {
     margin: 0 0 4rem 0;
-    padding: 0 1.4rem;
     text-align: justify;
 }
